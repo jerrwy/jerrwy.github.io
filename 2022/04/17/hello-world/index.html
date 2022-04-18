@@ -32,9 +32,9 @@
         href="https://cdn.jsdelivr.net/npm/justifiedGallery@3.8.1/dist/css/justifiedGallery.min.css"
     />
     
-    <link rel="stylesheet" href="/lib/mdui_043tiny/css/mdui.css?v=1650244447659">
-    <link rel="stylesheet" href="/lib/iconfont/iconfont.css?v=1650244447659">
-    <link rel="stylesheet" href="/css/style.css?v=1650244447659">
+    <link rel="stylesheet" href="/lib/mdui_043tiny/css/mdui.css?v=1650244497721">
+    <link rel="stylesheet" href="/lib/iconfont/iconfont.css?v=1650244497722">
+    <link rel="stylesheet" href="/css/style.css?v=1650244497722">
      
     
 <meta name="generator" content="Hexo 6.1.0"></head>
@@ -179,19 +179,19 @@
   
       <div class="nexmoe-post-footer">
           <section class="nexmoe-comment">
-    <div id="gitment"></div>
-<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
-<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
-<script>
-var gitment = new Gitment({
-    owner: 'jerrwy', // 你的 GitHub ID
-    repo: 'jerrwy_blog', // 存储评论的 repo
-    oauth: {
-        client_id: 'baef52578a4dfa4e212e', // 你的 client ID
-        client_secret: '26bef8ad4b52820b6b94f5af6f95caf2241b5eb7' // 你的 client secret
-    },
-})
-gitment.render('gitment')
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@latest/dist/gitalk.min.css">
+<div id="gitalk"></div>
+<script src="https://cdn.jsdelivr.net/npm/gitalk@latest/dist/gitalk.min.js"></script>
+<script type="text/javascript">
+    var gitalk = new Gitalk({
+        clientID: 'baef52578a4dfa4e212e',
+        clientSecret: '26bef8ad4b52820b6b94f5af6f95caf2241b5eb7',
+        id: window.location.pathname,
+        repo: 'jerrwy_blog',
+        owner: 'jerrwy',
+        admin: 'jerrwy'
+    })
+    gitalk.render('gitalk')
 </script>
 </section>
       </div>
@@ -228,7 +228,7 @@ gitment.render('gitment')
 
  
 
-<script async src="/js/app.js?v=1650244447662"></script>
+<script async src="/js/app.js?v=1650244497724"></script>
 
 
 
